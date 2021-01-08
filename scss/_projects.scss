@@ -1,0 +1,28 @@
+#portfolio {
+  background: url(../assets/square_bg.png);
+  background: {
+    size: cover;
+    repeat: no-repeat;
+    position: bottom;
+  }
+  padding: em(30) em(20);
+  h3 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+.projects a {
+  grid-column: 1/9;
+  margin: em(20) 0;
+  display: flex;
+  * {
+    margin: 0 em(20);
+    max-width: 40%;
+    align-self: center;
+  }
+}
+
+.projects h4 {
+  color: #9994f7;
+}

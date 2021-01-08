@@ -1,0 +1,80 @@
+body {
+  background: $secondary;
+  overflow-x: hidden;
+  font-family: $font-primary;
+  font-size: 100%;
+}
+
+.button {
+  background: none;
+  border: em(2) solid $primary;
+  color: $primary;
+  padding: em(6) em(12);
+  border-radius: em(20);
+  text-transform: uppercase;
+  box-shadow: em(1) em(2) em(3) rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  &:hover {
+    color: #222;
+    background: $primary;
+  }
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.05);
+  padding: em(10) em(16);
+  border-radius: em(20);
+  border: em(2) solid #9893d8;
+  color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #dddbbf;
+  font-weight: normal;
+}
+
+p,
+a,
+li {
+  color: #9893d8;
+}
+
+h1,
+h3 {
+  font-size: 1.2em; //19.2/16
+}
+
+h2 {
+  font-size: 1.6em; // default
+}
+
+h4 {
+  font-size: 1.1em; //default
+}
+
+.leading {
+  font-size: 1.1em; //default
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: em(10);
+}
+
+//nav
+.site-nav {
+  margin: 0 em(20);
+  ul {
+    display: none;
+  }
+  h1 {
+    grid-column: 1/4;
+    padding-bottom: em(10);
+    border-bottom: em(3) solid $primary;
+  }
+}
