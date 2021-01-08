@@ -1,0 +1,17 @@
+#welcome {
+  padding: 0 em(20) em(20) em(20);
+}
+
+.welcome-text {
+  grid-column: 1/6;
+  a {
+    margin: em(20) 0;
+  }
+}
+
+.welcome-img {
+  grid-column: 6/9;
+  img {
+    width: 200%;
+  }
+}

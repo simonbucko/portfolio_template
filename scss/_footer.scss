@@ -1,0 +1,25 @@
+footer {
+  padding: em(30) em(20);
+  background: {
+    color: #14153d;
+    image: url(../assets/footer_image.png);
+    size: 40%;
+    position: top center;
+    repeat: no-repeat;
+  }
+  .copyright {
+    grid-column: 1/3;
+    font-size: 0.8em; //default
+  }
+  .social {
+    grid-column: 7/9;
+    display: flex;
+    justify-content: flex-end;
+  }
+  li {
+    margin: 0 em(6);
+  }
+  img {
+    width: em(20);
+  }
+}

@@ -1,0 +1,36 @@
+@media screen and (min-width: 600px) {
+  .welcome-text {
+    grid-column: 1/5;
+  }
+  .welcome-img {
+    grid-column: 5/9;
+    img {
+      width: 100%;
+    }
+  }
+  .projects {
+    margin-top: em(40);
+    a {
+      grid-column: span 4;
+      display: block;
+      margin: em(20) 0;
+      &:last-child {
+        grid-column: 3/7;
+      }
+      * {
+        margin: em(10);
+        max-width: 60%;
+        margin: em(10) 20%;
+      }
+    }
+    h4 {
+      text-align: center;
+    }
+  }
+  #skills {
+    padding: em(30) em(100);
+  }
+  footer {
+    background-size: 20%;
+  }
+}

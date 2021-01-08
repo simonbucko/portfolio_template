@@ -1,0 +1,20 @@
+#skills {
+  padding: em(30) em(20);
+  background: #07083e;
+  h3 {
+    text-align: center;
+  }
+  ul {
+    margin: em(40) 0;
+  }
+  li {
+    padding: em(10);
+    background: rgba(0, 0, 0, 0.2);
+    grid-column: span 4;
+    text-align: center;
+  }
+  img {
+    height: em(80);
+    margin: em(10) auto;
+  }
+}
